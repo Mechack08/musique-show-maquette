@@ -95,10 +95,14 @@ a{
 .register{
     margin-right: 0.5rem;
     background-color: #73B20D;
-    padding: 0.25rem .35rem;
+    padding: 0.25rem .45rem;
     border-radius: 0.1rem;
+    transition: background-color .4s ease;
 }
 
+.register:hover{
+    background-color: #365311;
+}
 
 .profile-img{
     width: 2.5rem;
