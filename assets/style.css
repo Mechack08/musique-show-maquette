@@ -243,3 +243,101 @@ a{
 .read-more:hover{
     transform: scale(1.1);
 }
+
+.popular-songs{
+    background-color: #617448;
+    padding: 1rem 10rem;
+}
+
+/* commun */
+.section-title,
+.section-subtitle {
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.section-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: .089rem;
+}
+
+.section-subtitle{
+    font-size: 0.95em;
+    font-weight: 300;
+    letter-spacing: .085rem;
+}
+/* commun end */
+
+.section-header{
+    background-color: #536638;
+    width: 60%;
+    margin-bottom: 1rem;
+    padding: .1rem;
+    border-radius: 5rem;
+    margin: 1rem auto 0;
+}
+
+.pop-songs-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.pop-song-card{
+    height: 14rem;
+    width: 10rem;
+    padding: .2rem;
+    margin: .5rem;
+    background-color: #3f4925;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px #314b08;
+}
+
+.card-img-cover{
+    height: 8rem
+}
+
+.cover-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+.pop-song-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pop-song-body,
+.pop-song-footer{
+    color: #f1f1f1;
+}
+
+.song-title{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .035rem;
+}
+
+.song-artist{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.song-genre{
+    font-size: .75rem;
+    font-weight: 100;
+}
+
+.pop-song-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
