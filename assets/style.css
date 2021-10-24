@@ -25,7 +25,7 @@ a{
     justify-content: space-between;
     height: 8.5rem;
     background-color: #3C4524;
-    padding: .5rem 2rem;
+    padding: 1rem 2rem;
     box-shadow: 0 5px 7px #365311;
 }
 
@@ -244,7 +244,8 @@ a{
     transform: scale(1.1);
 }
 
-.popular-songs{
+.popular-songs, 
+.popular-albums {
     background-color: #617448;
     padding: 1rem 10rem;
 }
@@ -278,7 +279,8 @@ a{
     margin: 1rem auto 0;
 }
 
-.pop-songs-cards{
+.pop-songs-cards,
+.pop-albums-cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +288,7 @@ a{
     margin-top: 2rem;
 }
 
-.pop-song-card{
+.pop-song-card {
     height: 14rem;
     width: 10rem;
     padding: .2rem;
