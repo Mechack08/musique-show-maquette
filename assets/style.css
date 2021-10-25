@@ -284,7 +284,7 @@ a{
     margin-bottom: 1rem;
     padding: .1rem;
     border-radius: 5rem;
-    margin: 1rem auto 0;
+    margin: 0 auto;
 }
 
 .pop-songs-cards,
@@ -351,6 +351,11 @@ a{
 .pop-song-footer{
     display: flex;
     justify-content: space-evenly;
+}
+
+.pop-song-footer span {
+    font-size: 0.55rem;
+    font-weight: 100;
 }
 
 .card-img-cover-album{
