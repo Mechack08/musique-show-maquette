@@ -288,7 +288,8 @@ a{
 }
 
 .pop-songs-cards,
-.pop-albums-cards {
+.pop-albums-cards,
+.pop-artists-cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,4 +416,54 @@ a{
 .album-year {
     font-size: 0.75rem;
     font-weight: 100;
+}
+
+.popular-artist-card{
+    display: flex;
+    flex-direction: column;
+    width: 12.5rem;
+    height: 15rem;
+    padding: 1rem;
+    background-color: rgb(27, 27, 27);
+    margin: 0 .5rem 1rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    box-shadow: -0.5px 0.5px 7px 1px rgba(0,0,0,0.75);
+    transition: background-color .3s ease;
+}
+
+.popular-artist-card:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.pop-art-img-container{
+    width: 100%;
+    height: 80%;
+}
+
+.pop-art-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.65);
+}
+
+.description-pop-art{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+
+.pop-art-name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .035rem;
+}
+
+.pop-art-desc{
+    font-size: 0.85rem;
+    font-weight: 100;
+    letter-spacing: .045rem;
 }
