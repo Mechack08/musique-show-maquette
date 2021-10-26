@@ -301,18 +301,25 @@ a{
 .pop-song-card {
     height: 14rem;
     width: 10rem;
-    padding: .2rem;
+    padding: .5rem;
     margin: .5rem;
-    background-color: #090c0c;
+    background-color: rgba(0,0,0,0.75);
     border-radius: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 1px 1px 2px #090c0c;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    position: relative;
+}
+
+.pop-song-card:hover {
+    background-color: rgba(0,0,0,0.4);
 }
 
 .card-img-cover{
-    height: 8rem
+    height: 8rem;
 }
 
 .cover-img{
@@ -320,6 +327,27 @@ a{
     width: 100%;
     object-fit: cover;
     border-radius: 0.1rem;
+}
+
+.pop-song-icon{
+    position: absolute;
+    color: #537497;
+    font-size: 2rem;
+    bottom: 3rem;
+    right: 1rem;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .3s ease;
+}
+
+.pop-song-icon:hover{
+    transform: scale(1.1);
+}
+
+.pop-song-icon-show{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .pop-song-body{
@@ -398,6 +426,12 @@ a{
     position: absolute;
     top: 0;
     z-index: 1;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.pop-album-card:hover::after{
+    opacity: .8;
 }
 
 .album-title{
