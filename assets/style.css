@@ -31,6 +31,13 @@ a{
     box-shadow: 0 2px 3px #20232C;
 }
 
+.menu-pos-fixed {
+    position: sticky;
+    top: -3.6rem;
+    left: 0;
+    z-index: 1000;
+}
+
 .first-leading{
     display: flex;
     flex-direction: row;
