@@ -182,9 +182,6 @@ a{
 }
 
 .news{
-    /* padding: 1rem;
-    display: flex;
-    justify-content: space-around; */
     background-color: #121212;
     min-height: 50vmin;
     cursor: grab;
@@ -197,7 +194,6 @@ a{
 }
 
 .slide-show{
-    background-color: aquamarine;
     position: absolute;
     height: 100%;
     display: flex;
