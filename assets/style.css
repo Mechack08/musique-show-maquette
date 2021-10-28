@@ -182,20 +182,47 @@ a{
 }
 
 .news{
-    padding: 1rem;
+    /* padding: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; */
     background-color: #121212;
+    min-height: 50vmin;
+    cursor: grab;
+    position: relative;
+    overflow: hidden;
+}
+
+.news:active {
+    cursor: grabbing;
+}
+
+.slide-show{
+    background-color: aquamarine;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    pointer-events: none;
+    padding: 1rem 3rem;
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;   
 }
 
 .news-card{
-    width: 15rem;
-    height: 14rem;
+    /* width: 15rem;
+    height: 14rem; */
+    height: 100%;
+    width: 60vmin;
     background-color: #515E64;
-    margin: 0.3rem;
     color: #f1f1f1;
     border-radius: 0.1rem;
-    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.news-card:not(:nth-child(1)) {
+    margin-left: 2rem;
 }
 
 .news-card-header{
@@ -231,6 +258,7 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    pointer-events: none;
 }
 
 .news-card-program{
@@ -250,13 +278,14 @@ a{
     padding: 0.3rem;
     right: -1rem;
     bottom: -2.8rem;
-    cursor: pointer;
+    pointer-events: auto;
     border-radius: 0.1rem;
     transition: transform .3s ease;
 }
 
 .read-more:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .popular-songs, 
