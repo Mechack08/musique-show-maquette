@@ -583,5 +583,36 @@ a{
 }
 
 .more-info-footer{
-    background-color: #20232C;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.footer-header {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: .075rem;
+    margin-bottom: .5rem;
+}
+
+.aboutus-footer ul {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.aboutus-footer li {
+    margin-top: 0.25rem;
+}
+
+.aboutus-footer a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.85rem;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+}
+
+.aboutus-footer a:hover {
+    color: rgba(255,255,255,0.9);
 }
