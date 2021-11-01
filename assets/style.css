@@ -619,7 +619,7 @@ a{
 }
 
 .footer-social {
-    padding: 0 10rem;
+    padding: 0 10rem 1rem 10rem;
     display: block;
 }
 
@@ -668,5 +668,34 @@ a{
 
 .follow-us i:hover {
     transform: scale(1.1);
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    background-color: #4e4f52;
+    padding: 2rem 0 0;
+}
+
+.sponsor .footer-header {
+    text-align: center;
+}
+
+.sponsor-logos {
+    display: flex;
+    margin: 1rem auto;
+}
+
+.logo-img-spo {
+    width: 7rem;
+    height: 4rem;
+    margin: 0 1rem 0;
+}
+
+.logo-img-spo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
 }
 
