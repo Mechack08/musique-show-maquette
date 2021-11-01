@@ -538,18 +538,15 @@ a{
 
 /* footer */
 .footer {
-    background-color: #979aa0;
+    background-color: #20232C;
     margin-top: 2rem;
-    padding: 1rem 2rem;
-}
-
-.footer-wrapper{
-    padding: .5rem 2rem;
 }
 
 .few-info-footer{
+    background-color: #979aa0;
     display: flex;
     justify-content: space-around;
+    padding: 2rem 0;
 }
 
 .footer-location,
@@ -583,4 +580,8 @@ a{
 
 .footer-contact{
     display: flex;
+}
+
+.more-info-footer{
+    background-color: #20232C;
 }
