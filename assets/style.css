@@ -699,3 +699,16 @@ a{
     border-radius: 0.2rem;
 }
 
+.copy-right {
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-right span {
+    color: #a5a0a0;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
