@@ -542,6 +542,10 @@ a{
     margin-top: 2rem;
 }
 
+.footer-wrapper {
+    position: relative;
+}
+
 .few-info-footer{
     background-color: #979aa0;
     display: flex;
@@ -712,3 +716,38 @@ a{
     font-weight: 300;
 }
 
+.aside-footer {
+    background-color: #14161d;
+    height: 15rem;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-footer-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: .2px solid rgb(102, 100, 100);
+    border-top: none;
+    width: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.aside-footer-items i {
+    font-size: 1.4rem;
+    margin-bottom: 0.22rem;
+    color: #f1f1f1;
+}
+
+.aside-footer-items span {
+    font-size: .75rem;
+    font-weight: 100;
+    color: #f1f1f1;
+}
