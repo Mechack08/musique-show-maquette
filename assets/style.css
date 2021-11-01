@@ -538,7 +538,7 @@ a{
 
 /* footer */
 .footer {
-    background-color: #20232C;
+    background-color: #14161d;
     margin-top: 2rem;
 }
 
@@ -582,13 +582,14 @@ a{
     display: flex;
 }
 
-.more-info-footer{
+.more-info-footer {
     display: flex;
     justify-content: space-between;
     padding: 2rem 10rem;
 }
 
-.footer-header {
+.footer-header,
+.app-download {
     color: #f1f1f1;
     font-size: 1.2rem;
     font-weight: 400;
@@ -616,3 +617,56 @@ a{
 .aboutus-footer a:hover {
     color: rgba(255,255,255,0.9);
 }
+
+.footer-social {
+    padding: 0 10rem;
+    display: block;
+}
+
+.application {
+    display: flex;
+    align-items: center;
+}
+
+.application-logo {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.app-logo-cover {
+    width: 10rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    border: .05rem solid #f1f1f1;
+    cursor: pointer;
+}
+
+.app-logo-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.follow-us {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5rem 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.follow-us i {
+    font-size: 1.4rem;
+    color: #537497;
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+}
+
+.follow-us i:hover {
+    transform: scale(1.1);
+}
+
