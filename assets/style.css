@@ -538,6 +538,49 @@ a{
 
 /* footer */
 .footer {
-    background-color: #181a20;
+    background-color: #979aa0;
     margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+.footer-wrapper{
+    padding: .5rem 2rem;
+}
+
+.few-info-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-location,
+.footer-contact-make{
+    border: 1px solid #515E64;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+.footer-location i,
+.footer-contact-make i {
+    color: #537497;
+    font-size: 1.8rem;
+}
+
+.footer-location span,
+.footer-contact-make span {
+    font-size: .9rem;
+    font-weight: 300;
+    text-align: center;
+    color: #2c2a2a;
+}
+
+.footer-contact{
+    display: flex;
 }
