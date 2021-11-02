@@ -2,6 +2,8 @@ const popSongCards = document.querySelectorAll('.pop-song-card');
 const popCardSong = document.querySelectorAll('.pop-song-icon');
 const menu = document.querySelector('.menu-container')
 const slider = document.querySelector('.news')
+const modal = document.querySelector('.modal')
+const readMore = document.querySelectorAll('.read-more')
 
 let holding = false;
 let firstClickX;
@@ -113,3 +115,11 @@ slider.addEventListener('touchmove', e => {
   
     velocity = slider.scrollLeft - prevScrollLeft;
 })
+
+/* modal */
+readMore.forEach(read => {
+    read.addEventListener('click', () => {
+        modal.classList.add('modal-show')
+    })
+})
+/* modal end */
